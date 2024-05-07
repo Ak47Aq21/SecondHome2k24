@@ -25,7 +25,7 @@ body {
     transform 0.3s,
     box-shadow 0.3s;
   overflow: hidden;
-  animation: borderAnimation 4s infinite alternate;
+  animation: borderAnimation 3s infinite alternate;
 }
 
 @keyframes borderAnimation {
@@ -85,15 +85,6 @@ body {
   }
 }
 
-@keyframes slideInFromLeft {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
 h1 {
   color: #fff;
   margin-bottom: 20px;
@@ -121,10 +112,13 @@ video {
 }
 
 .home-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   display: block;
   width: 100px;
   padding: 10px 20px;
-  margin: 20px auto;
   text-align: center;
   background-color: #222;
   color: #fff;
