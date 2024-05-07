@@ -117,17 +117,10 @@ video {
 /* Media query for smaller screens (max-width: 768px) */
 @media (max-width: 768px) {
   .container {
-    padding: 0 20px; /* Add some padding */
-    box-sizing: border-box; /* Include padding in the width */
+    padding: 0 10px; /* Adjust padding for smaller screens */
   }
 
   .card {
-    max-width: 100%; /* Set max-width to 100% for smaller screens */
-    height: auto; /* Auto height to fit content */
-  }
-
-  .home-button {
-    position: static; /* Reset position to static for smaller screens */
-    margin-top: 20px; /* Add margin to separate from card */
+    margin-bottom: 10px; /* Adjust margin for smaller screens */
   }
 }
