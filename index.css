@@ -152,13 +152,13 @@ body {
 
   #spin-container {
     width: 90%; /* Adjust as needed */
-    max-width: 500px; /* Example maximum width */
+    max-width: 400px; /* Example maximum width */
     height: auto; /* Auto height */
   }
 
   #spin-container img,
   #spin-container video {
-    width: 100%; /* Make images and videos fill the container */
+    max-width: 100%; /* Make images and videos responsive */
     height: auto; /* Maintain aspect ratio */
   }
 
