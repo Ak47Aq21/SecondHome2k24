@@ -151,7 +151,7 @@ body {
 
   #spin-container {
     width: 80%; /* Adjust as needed */
-    max-width: 300px; /* Example maximum width */
+    max-width: 100px; /* Example maximum width */
     height: auto; /* Auto height */
   }
 
@@ -166,7 +166,7 @@ body {
   }
 
   #ground {
-    width: 100vw; /* Full width of the viewport */
-    height: 100vh; /* Full height of the viewport */
+    width: 90vw; /* Full width of the viewport */
+    height: 90vh; /* Full height of the viewport */
   }
 }
