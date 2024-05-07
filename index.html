@@ -1,13 +1,88 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title></title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Farewell</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Welcome</h1>
-    <h3>This is the home page for Hostel Farewell 2024</h3>
-    <h3>work in progress....</h3>
+    <div id="drag-container">
+      <div id="spin-container">
+        <img
+          src="images/aliqyan.png"
+          alt=""
+          onclick="redirectTo('templates/example.html')"
+        />
+        <img
+          src="https://images.pexels.com/photos/1391498/pexels-photo-1391498.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt=""
+          onclick="redirectTo('video2.html')"
+        />
+        <img
+          src="https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt=""
+          onclick="redirectTo('video3.html')"
+        />
+        <img
+          src="https://images.pexels.com/photos/1758144/pexels-photo-1758144.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt=""
+          onclick="redirectTo('video4.html')"
+        />
+        <img
+          src="https://images.pexels.com/photos/1382734/pexels-photo-1382734.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt=""
+          onclick="redirectTo('video5.html')"
+        />
+        <img
+          src="https://images.pexels.com/photos/1462636/pexels-photo-1462636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt=""
+          onclick="redirectTo('video6.html')"
+        />
+        <img
+          src="https://images.pexels.com/photos/206395/pexels-photo-206395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt=""
+          onclick="redirectTo('video1.html')"
+        />
+        <img
+          src="https://images.pexels.com/photos/1391498/pexels-photo-1391498.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt=""
+          onclick="redirectTo('video2.html')"
+        />
+        <img
+          src="https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt=""
+          onclick="redirectTo('video3.html')"
+        />
+        <img
+          src="https://images.pexels.com/photos/1758144/pexels-photo-1758144.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt=""
+          onclick="redirectTo('video4.html')"
+        />
+        <img
+          src="https://images.pexels.com/photos/1382734/pexels-photo-1382734.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt=""
+          onclick="redirectTo('video5.html')"
+        />
+        <img
+          src="https://images.pexels.com/photos/1462636/pexels-photo-1462636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt=""
+          onclick="redirectTo('video6.html')"
+        />
+
+        <!-- Text at center of ground -->
+        <h1>Farewell 2024</h1>
+      </div>
+      <div id="ground"></div>
+    </div>
+
+    <div id="music-container"></div>
+
+    <script src="index.js"></script>
+    <script>
+      function redirectTo(videoPage) {
+        window.location.href = videoPage;
+      }
+    </script>
   </body>
 </html>
