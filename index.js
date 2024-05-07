@@ -1,7 +1,7 @@
 // You can change global variables here:
 var radius = 500; // how big of the radius
 var autoRotate = true; // auto rotate or not
-var rotateSpeed = -60; // unit: seconds/360 degrees
+var rotateSpeed = -90; // unit: seconds/360 degrees
 var imgWidth = 120; // width of images (unit: px)
 var imgHeight = 170; // height of images (unit: px)
 
@@ -128,7 +128,7 @@ document.onpointerdown = function (e) {
 
 document.onmousewheel = function (e) {
   e = e || window.event;
-  var d = e.wheelDelta / 20 || -e.detail;
+  var d = e.wheelDelta / 10 || -e.detail;
   radius += d;
   init(1);
 };
