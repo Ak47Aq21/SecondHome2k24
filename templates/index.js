@@ -1,19 +1,3 @@
-// document.querySelector(".card").addEventListener("click", function () {
-//   this.classList.toggle("open");
-//   const videoContainer = this.querySelector(".video-container");
-//   if (videoContainer.classList.contains("show")) {
-//     const video = this.querySelector("video");
-//     if (video.paused) {
-//       video.play();
-//     } else {
-//       video.pause();
-//     }
-//   }
-//   videoContainer.classList.toggle("show");
-// });
-
-// if we want to put the secret code feature later:
-
 const secretCode = "8877";
 let codeEntered = false;
 

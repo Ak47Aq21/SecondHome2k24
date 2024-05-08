@@ -18,7 +18,9 @@ body {
   position: relative;
   width: 450px;
   height: 350px;
-  background-color: #222;
+  background-image: url("try.jpg");
+  background-size: cover;
+  background-position: center;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   transition:
@@ -34,7 +36,7 @@ body {
     border-color: #fff;
   }
   100% {
-    transform: scale(1.05);
+    transform: scale(1.1);
     border-color: #f00;
   }
 }
