@@ -19,7 +19,8 @@ header {
 
 .button {
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem; /* Increased padding */
+  font-size: 1.2rem; /* Increased font size */
   background-color: #007bff;
   color: white;
   text-decoration: none;
