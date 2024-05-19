@@ -1,4 +1,4 @@
-const secretCode = "8877";
+const secretCode = "8291";
 let codeEntered = false;
 
 function showVideo() {
