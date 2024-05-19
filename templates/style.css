@@ -18,7 +18,7 @@ body {
   position: relative;
   width: 450px;
   height: 350px;
-  background-image: url("try.jpg");
+  background-image: url(#000);
   background-size: cover;
   background-position: center;
   border-radius: 10px;
