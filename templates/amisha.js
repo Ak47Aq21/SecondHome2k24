@@ -4,6 +4,16 @@ let codeEntered = false;
 function showVideo() {
   document.querySelector(".card").classList.add("open");
   document.querySelector(".video-container").classList.add("show");
+  const video = document.querySelector("video");
+  video.setAttribute("controls", "controls"); // Add controls attribute
+}
+
+function hideVideo() {
+  document.querySelector(".card").classList.remove("open");
+  document.querySelector(".video-container").classList.remove("show");
+  const video = document.querySelector("video");
+  video.removeAttribute("controls"); // Remove controls attribute
+  video.pause();
 }
 
 function checkCode() {
@@ -14,6 +24,7 @@ function checkCode() {
     showVideo();
   } else {
     alert("Incorrect code. Please try again.");
+    hideVideo();
   }
 }
 
@@ -27,14 +38,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     const videoContainer = this.querySelector(".video-container");
+    const video = this.querySelector("video");
     if (videoContainer.classList.contains("show")) {
-      const video = this.querySelector("video");
       if (video.paused) {
         video.play();
       } else {
         video.pause();
       }
     }
-    videoContainer.classList.toggle("show");
   });
 });

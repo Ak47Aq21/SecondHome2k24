@@ -95,8 +95,8 @@ h1 {
 .video-container {
   flex-grow: 1;
   display: none;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 100%; /* Ensure the video container does not exceed the card width */
+  max-height: 100%; /* Ensure the video container does not exceed the card height */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,10 +107,10 @@ h1 {
 }
 
 video {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%; /* Make the video responsive */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure the video does not exceed the video container width */
+  max-height: 100%; /* Ensure the video does not exceed the video container height */
   border-radius: 8px;
 }
 
